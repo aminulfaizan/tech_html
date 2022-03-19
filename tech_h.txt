@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+       
+       
+ <link rel="stylesheet" href="tech.css" type="text/css"/>
+
+        <title>Tech Magazine</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+      
+       <script src="tech.js"> </script> 
+    <nav class="navbar">
+        
+        <ul class="nav-list">
+             <div class="logo" alt="MyLogo">
+                <img src="myphoto.jpg" alter="MyLogo">
+            </div>
+            
+              <li><a href="task1.html">Home</a></li>          
+            <li><a href="Achievements.html">Current News</a></li>
+            <li><a href="Contact.html">2020-2021</a></li>
+             <li><a href="About.html">About</a></li>
+                   
+        </ul>      
+        <div class="rightNav">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+    </nav>  
+        
+        <div class="time">
+            <h1 id="result" align="center">time</h1> 
+        </div>
+        
+          <div class="top">
+     
+     
+              
+        <form class="form" name="login" onsubmit="return validation()" style="background:transparent">
+            
+           User Name : <input type="text" name="uname" value="" id="search2" style="margin: 2px"><!-- comment -->
+            
+           User Password : <input type="password" name="pass" value="" id="search2"><!-- comment -->       
+           <input type="submit" name="btn" value="submit">           
+        </form>
+             
+              
+       <!-- for form both field should be fill --> 
+
+        </div>       
+           <section class="section">
+        <div class="paras">
+            <h2 class="sectionTag text-big">Apple M1X: Everything you need to 
+                know about Apple’s next processor</h2>
+            <p class="sectionSubTag text-small">
+Apple has finally announced the new Apple M1 Pro, which we thought would be the Apple M1X,
+and Apple claims it's the first time anyone has created an SoC design for a pro-level 
+laptop (otherwise known as mobile workstations). 
+It delivers up to 32GB of unified RAM and incredibly fast 
+memory bandwidth, which should make it extremely powerful,
+especially when combined with the 10-core design. 
+            </p>
+            
+             <p class="sectionSubTag text-small">
+                <a href="goole_form.html"> click here</a>
+            </p>
+            
+        </div>
+        
+        <div class="thumbnail">
+            <img src="m1x.jpg" alt="laptop">
+        </div>
+               
+    </section>
+        <section class="section">
+        <div class="paras">
+            <h1 class="sectionTag text-big">Wanna join with  <a href="goole_form.html">Me! </a></h1>
+            <p class="sectionSubTag text-small">
+                (I did solve almost 100 problems on URI by c,c++ and java).
+                I have a healthy idea on OOP (object oriented programming)
+                <a href="goole_form.html"> click here</a>
+            </p>
+        </div>
+        
+        <div class="thumbnail">
+            <img src="logo.jpg" alt="laptop">
+        </div>
+    </section>
+        
+        
+        <section class="firstsection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <h1 class="text-big" id="web">
+                 Registration
+                </h1>                                       
+              
+                <form class="form2" name="reg" onsubmit="return registration() " style="background:transparent">
+                name: <input type="text" name="rname" value="" id="search2" style="margin: 2px"><br>
+            
+                email :<input type="email" name="remail" value="" id="search2"><br>
+                     
+                mobile : <input type="number" name="rmobile" value="" id="search2" style="margin: 2px"><br>
+            
+               Password : <input type="password" name="rpassword" value="" id="search2"><br>
+               
+            <input type="submit" name="btn2" value="registration" style="margin-top: 16px">
+        </form>   
+                
+            </div>
+        </div>
+    </section>
+        
+
+       
+    <footer class="background2">
+         <div class="achieveimg">     
+      <div class="image">
+                    <div id="zoom-In">
+                        <figure>
+                            <img src="insta.png" alt="tree" />
+                        </figure>                   
+                     </div> 
+                    </div>
+      
+      
+       <div class="image">
+                    <div id="zoom-In">
+                        <figure>
+                            <img src="tw.jpg" alt="tree" />
+                        </figure>
+                   
+                  
+                   
+                     </div> 
+                    </div>
+      
+      
+        <div class="image">
+                    <div id="zoom-In">
+                        <figure>
+                            <img src="you.png" alt="tree"/>
+                        </figure>                 
+                     </div> 
+                    </div>    
+                </div>       
+    </footer>
+        
+       
+        
+  
+        
+</body>
+ 
+</html>
